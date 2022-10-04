@@ -51,7 +51,7 @@ public class SillyTest {
         assertEquals("The countStatic calls will return [0, 1, 2, 3]", output[3].strip());
     }
 
-    @Test(timeout = 50)
+    @Test(timeout = 500)
     public void testTask3() {
         Silly a = new Silly(1);
         Silly b = new Silly(3);
